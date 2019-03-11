@@ -53,3 +53,7 @@ function update_quality(items) {
 
   return items;
 }
+
+if (typeof module === 'object') {
+  exports = module.exports = {Item: Item, update_quality: update_quality};
+}
