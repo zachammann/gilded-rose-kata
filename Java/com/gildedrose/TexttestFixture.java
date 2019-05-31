@@ -22,7 +22,9 @@ public class TexttestFixture {
                 new Item("Conjured Backstage passes to a TAFKAL80ETC concert", 15, 20),
                 new Item("Conjured Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 new Item("Conjured Backstage passes to a TAFKAL80ETC concert", 5, 49),
-                new Item("Conjured Backstage passes to a TAFKAL80ETC concert", 0, 49)};
+                new Item("Conjured Backstage passes to a TAFKAL80ETC concert", 0, 49),
+                new Item("Conjured +5 Dexterity Vest", 10, 20),
+                new Item("Conjured +5 Dexterity Vest", 0, 20)};
 
         GildedRose app = new GildedRose(items);
 
